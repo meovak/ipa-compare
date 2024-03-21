@@ -1,0 +1,12 @@
+.ipa-table {
+    width: 100%;
+}
+
+.ipa-table td, th {
+    border-bottom: 1px solid;
+    padding: 0.5em;
+}
+
+.table--striped tr:nth-child(even) {
+    background-color: whitesmoke;
+}

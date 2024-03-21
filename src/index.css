@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+iframe, img {
+  max-width: 100%;
+}
+ul {
+  line-height: 1.5em;
+}
+
+ul[class] {
+  list-style: none;
+  padding: 0;
+}
+dialog {
+  border: 0;
+  max-width: 80ch;
+  padding: 0;
+}
+dialog::backdrop {
+  background-color: rgb(0 0 0 / 0.5);
+}
+p {
+  margin: 0;
+}
+
+input, textarea {
+  width: 100%;
+}
