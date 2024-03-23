@@ -1,321 +1,296 @@
-const en = {
-  label: '🇬🇧 English',
+const vi = {
+  label: '🇻🇳 Vietnamese',
   ipa: {
-    98: {
+    97: {
       ex: (
         <span>
-          <b>b</b>uy, ca<b>b</b>
+          <b>ă</b>n, m<b>a</b>y, c<b>a</b>u
         </span>
       ),
     },
-    100: {
+    99: {
       ex: (
         <span>
-          <b>d</b>ye, ca<b>d</b>, la<b>dd</b>er
+          <b>ch</b>è
         </span>
       ),
     },
-    106: {
+    101: {
       ex: (
         <span>
-          <b>y</b>es, hallelu<b>j</b>ah
-        </span>
-      ),
-    },
-    107: {
-      ex: (
-        <span>
-          <b>k</b>ind, s<b>k</b>y, <b>c</b>ra<b>ck</b>
+          v<b>ề</b>, c<b>â</b>y
         </span>
       ),
     },
     102: {
       ex: (
         <span>
-          <b>f</b>ind, lea<b>f</b>
+          <b>ph</b>ở
         </span>
       ),
     },
     104: {
       ex: (
         <span>
-          <b>h</b>igh, a<b>h</b>ead
+          <b>h</b>àng
         </span>
       ),
     },
     105: {
       ex: (
         <span>
-          happ<b>y</b>, rad<b>i</b>o
+          kh<b>i</b>, đ<b>i</b>
+        </span>
+      ),
+    },
+    106: {
+      ex: (
+        <span>
+          <b>gi</b>à (southern dialect), da, danh
+        </span>
+      ),
+    },
+    107: {
+      ex: (
+        <span>
+          <b>c</b>ô, <b>k</b>em
         </span>
       ),
     },
     108: {
       ex: (
         <span>
-          <b>l</b>ie, p<b>l</b>y, ga<b>l</b>
+          <b>l</b>à
         </span>
       ),
     },
     109: {
       ex: (
         <span>
-          <b>m</b>y, s<b>m</b>ile, ca<b>m</b>
+          <b>m</b>ai
         </span>
       ),
     },
     110: {
       ex: (
         <span>
-          <b>n</b>igh, s<b>n</b>ide, ca<b>n</b>
+          <b>n</b>am
         </span>
       ),
     },
-    112: {
+    111: {
       ex: (
         <span>
-          <b>p</b>ack
+          c<b>ô</b>
         </span>
       ),
     },
+    112: { ex: <span>pin</span> },
     114: {
       ex: (
         <span>
-          <b>r</b>ye, t<b>r</b>y, ve<b>r</b>y
+          <b>r</b>a, <b>r</b>ồi
         </span>
       ),
     },
     115: {
       ex: (
         <span>
-          <b>s</b>igh, ma<b>ss</b>
+          <b>x</b>a, <b>s</b>áu (southern dialect)
         </span>
       ),
     },
     116: {
       ex: (
         <span>
-          <b>t</b>ie, s<b>t</b>y, ca<b>t</b>, la<b>tt</b>er
+          <b>t</b>ây
         </span>
       ),
     },
     117: {
       ex: (
         <span>
-          fr<b>u</b>ition
+          r<b>u</b>, t<b>u</b>
         </span>
       ),
     },
     118: {
       ex: (
         <span>
-          <b>v</b>ie, lea<b>v</b>e
+          <b>v</b>ề
         </span>
       ),
     },
     119: {
       ex: (
         <span>
-          <b>w</b>ine, s<b>w</b>ine
+          <b>qu</b>anh
         </span>
       ),
     },
     120: {
       ex: (
         <span>
-          lo<b>ch</b>
+          <b>kh</b>ô (northern dialect)
         </span>
       ),
     },
     122: {
       ex: (
         <span>
-          <b>z</b>oo, ha<b>s</b>
-        </span>
-      ),
-    },
-    230: {
-      ex: (
-        <span>
-          tr<b>a</b>p, t<b>a</b>ttoo, s<b>a</b>ng
-        </span>
-      ),
-    },
-    240: {
-      ex: (
-        <span>
-          <b>th</b>y, brea<b>th</b>e, fa<b>th</b>er{' '}
+          <b>gi</b>à, <b>gi</b>ặt
         </span>
       ),
     },
     331: {
       ex: (
         <span>
-          campi<b>ng</b>
+          <b>ng</b>âm; <b>ngh</b>e
         </span>
       ),
     },
-    594: {
+    595: {
       ex: (
         <span>
-          l<b>o</b>t, bl<b>o</b>ckade, c<b>o</b>t, b<b>o</b>ther
+          <b>b</b>a
+        </span>
+      ),
+    },
+    599: {
+      ex: (
+        <span>
+          <b>đ</b>i
         </span>
       ),
     },
     601: {
       ex: (
         <span>
-          b<b>a</b>zaar, comm<b>a</b>
+          <b>â</b>n
         </span>
       ),
     },
-    603: {
+    611: {
       ex: (
         <span>
-          dr<b>e</b>ss, pr<b>e</b>stige, l<b>e</b>ngth
+          <b>g</b>a; <b>gh</b>ế
         </span>
       ),
     },
-    609: {
+    616: {
       ex: (
         <span>
-          <b>g</b>uy, ba<b>g</b>
+          t<b>ư</b>
         </span>
       ),
     },
-    618: {
+    626: {
       ex: (
         <span>
-          k<b>i</b>t, h<b>i</b>storic, s<b>i</b>ng
+          <b>nh</b>à
         </span>
       ),
     },
-    643: {
+    642: {
       ex: (
         <span>
-          <b>sh</b>y, ca<b>sh</b>
+          <b>s</b>áu
         </span>
       ),
     },
-    650: {
+    648: {
       ex: (
         <span>
-          f<b>oo</b>t
+          <b>tr</b>à
         </span>
       ),
     },
-    652: {
+    660: { ex: <span>anh</span> },
+    6800: {
+      // TODO: check display character
       ex: (
         <span>
-          g<b>u</b>t, s<b>u</b>ng
+          <b>ch</b>è (northern dialect)
         </span>
       ),
     },
-    658: {
+    0x6102d0: {
       ex: (
         <span>
-          plea<b>s</b>ure, bei<b>g</b>e, vi<b>s</b>ion
+          b<b>a</b>, m<b>a</b>i, c<b>a</b>o
         </span>
       ),
     },
-    952: {
+    0x6b02b7: {
       ex: (
         <span>
-          <b>th</b>igh, <b>th</b>ank
+          <b>qu</b>anh (northern dialect)
         </span>
       ),
     },
-    0x025102d0: {
+    0x6b02b0: {
       ex: (
         <span>
-          p<b>a</b>lm, br<b>a</b>, f<b>a</b>ther
+          <b>kh</b>ô (southern dialect)
         </span>
       ),
     },
-    0x61026a: {
+    0x7402b0: {
       ex: (
         <span>
-          pr<b>i</b>ce, p<b>ie</b>
+          <b>th</b>ầy
         </span>
       ),
     },
-    0x61028a: {
+    0x025b02d0: {
       ex: (
         <span>
-          m<b>ou</b>th, h<b>o</b>w
+          x<b>e</b>
         </span>
       ),
     },
-    0x65026a: {
+    0x025902d0: {
       ex: (
         <span>
-          f<b>a</b>ce
-        </span>
-      ),
-    },
-    0x6902d0: {
-      ex: (
-        <span>
-          fl<b>ee</b>, Gr<b>ee</b>ce
-        </span>
-      ),
-    },
-    0x6f028a: {
-      ex: (
-        <span>
-          g<b>oa</b>t
+          b<b>ơ</b>
         </span>
       ),
     },
     0x025402d0: {
       ex: (
         <span>
-          th<b>ou</b>ght, <b>au</b>thentic
-        </span>
-      ),
-    },
-    0x0254026a: {
-      ex: (
-        <span>
-          ch<b>oi</b>ce
-        </span>
-      ),
-    },
-    0x7502d0: {
-      ex: (
-        <span>
-          g<b>oo</b>se, cr<b>u</b>el
+          x<b>oo</b>ng
         </span>
       ),
     },
     0x690259: {
       ex: (
         <span>
-          Californ<b>ia</b>
+          v<b>iê</b>n, b<b>ia</b>
         </span>
       ),
     },
-    0x750065: {
+    0x02680259: {
       ex: (
         <span>
-          infl<b>ue</b>nce
+          x<b>ươ</b>ng, ch<b>ưa</b>
         </span>
       ),
     },
-    429553418898: {
+    0x750259: {
       ex: (
         <span>
-          <b>g</b>iant, ba<b>dg</b>e
+          <b>uố</b>ng, m<b>ua</b>
         </span>
       ),
     },
-    0x7403610283: {
+    0x028803610282: {
       ex: (
         <span>
-          <b>Ch</b>ina, ca<b>tch</b>
+          <b>tr</b>à (northern dialect)
         </span>
       ),
     },
   },
 };
-export default en;
+export default vi;

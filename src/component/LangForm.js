@@ -1,11 +1,10 @@
 import Select from 'react-select';
+import { languages } from '../ipa';
 
-const options = [
-  { value: 'en', label: 'English' },
-  { value: 'vn', label: 'Vietnamese' },
-  { value: 'my', label: 'Malay' },
-  { value: 'fr', label: 'French' },
-];
+const options = Object.entries(languages).map(([id, { label }]) => ({
+  value: id,
+  label,
+}));
 export default function LangForm({ handleChange }) {
   return (
     <div>

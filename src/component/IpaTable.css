@@ -10,3 +10,6 @@
 .table--striped tr:nth-child(even) {
     background-color: whitesmoke;
 }
+.clickable {
+    cursor: pointer;
+}
