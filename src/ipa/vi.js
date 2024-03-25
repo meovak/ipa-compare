@@ -46,7 +46,7 @@ const vi = {
     106: {
       ex: (
         <span>
-          <b>gi</b>à (southern dialect), da, danh
+          <b>d</b>a, <b>d</b>anh, <b>gi</b>à (southern dialect)
         </span>
       ),
     },
@@ -85,7 +85,13 @@ const vi = {
         </span>
       ),
     },
-    112: { ex: <span>pin</span> },
+    112: {
+      ex: (
+        <span>
+          <b>p</b>in
+        </span>
+      ),
+    },
     114: {
       ex: (
         <span>

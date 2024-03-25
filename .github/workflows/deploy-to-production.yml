@@ -1,0 +1,29 @@
+name: Deploy to Production
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    container:
+      image: node:20-alpine
+
+    steps:
+     - name: Checkout Repository
+       uses: actions/checkout@v4
+
+     - name: Build
+       run: |
+        yarn install
+        yarn build
+
+     - name: Deploy
+       uses: cloudflare/wrangler-action@v3
+       with:
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        command: pages deploy build --project-name ipacompare
+    
