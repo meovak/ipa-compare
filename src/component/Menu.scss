@@ -1,0 +1,26 @@
+.menu {
+  font-size: 110%;
+  box-shadow: 0 4px 8px -2px var(--clr-neutral-100);
+  padding: 1.2rem 0;
+}
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+}
+.menu__list a {
+  text-decoration: none;
+  padding: 0.5em 1.5em;
+
+  &:visited {
+    color: inherit;
+  }
+
+  &.active {
+    background-color: var(--clr-neutral-300);
+  }
+
+  background-color: whitesmoke;
+  border-radius: 100vw;
+}

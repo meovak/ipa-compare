@@ -1,0 +1,11 @@
+.container {
+  padding: 0 var(--spacer);
+  max-width: 70rem;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+.flow-content > * + * {
+  margin-top: var(--spacer);
+}

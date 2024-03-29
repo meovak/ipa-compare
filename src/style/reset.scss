@@ -20,7 +20,7 @@ dialog {
 dialog::backdrop {
   background-color: rgb(0 0 0 / 0.5);
 }
-p {
+body, p, ul {
   margin: 0;
 }
 

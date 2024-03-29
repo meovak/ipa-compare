@@ -212,7 +212,7 @@ const vi = {
       ),
     },
     660: { ex: <span>anh</span> },
-    6800: {
+    0x7403610255: {
       // TODO: check display character
       ex: (
         <span>

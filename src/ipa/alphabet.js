@@ -344,7 +344,7 @@ const alphabet = {
   783: { name: 'extra low tone' },
   860: { name: 'tie bar below' },
   865: { name: 'tie bar above' },
-  6800: {
+  0x7403610255: {
     sound:
       'https://www.internationalphoneticalphabet.org/ipa-chart-audio/ogg/Voiceless_alveolo-palatal_affricate.ogg',
   },
